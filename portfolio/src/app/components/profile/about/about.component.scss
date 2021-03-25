@@ -1,0 +1,19 @@
+.about-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 1500px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  font-size: 30px;
+}
+
+.info-title {
+  font-size: 30px;
+}

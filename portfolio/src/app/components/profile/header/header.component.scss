@@ -1,0 +1,97 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  background: url(../../../../assets/img/background.png) #222222;
+  height: 320px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-left: 420px;
+}
+
+.img-container {
+  transition: transform 0.2s;
+}
+
+.img-container:hover {
+  transform: scale(1.1);
+}
+
+.img-container img {
+  height: 190px;
+  width: 190px;
+  border-radius: 100%;
+  margin-top: 15px;
+}
+
+.name-container {
+  font-size: 24px;
+  color: #c4c4c4;
+}
+
+.name-port-container {
+  font-size: 24px;
+  color: #c4c4c4;
+}
+
+.port-text {
+  padding-top: 3px;
+  font-size: 14px;
+  color: #c4c4c4;
+}
+
+.contact {
+  padding-left: 120px;
+}
+
+.medias {
+  display: flex;
+  justify-content: space-around;
+  height: 280px;
+  width: 270px;
+  padding-top: 247px;
+}
+
+.linkedin-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: #2867b2;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.email-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: #d9d9d9;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.fa-envelope {
+  color: #3b3b3b;
+  font-size: 28px;
+}
+
+.fa-linkedin-in {
+  color: white;
+  font-size: 28px;
+}
+
+.fa-github {
+  color: white;
+  font-size: 50px;
+}

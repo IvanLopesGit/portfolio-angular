@@ -13,7 +13,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding-left: 420px;
+  padding-left: 480px;
 }
 
 .img-container {
@@ -48,14 +48,14 @@
 }
 
 .contact {
-  padding-left: 120px;
+  padding-left: 140px;
 }
 
 .medias {
   display: flex;
   justify-content: space-around;
   height: 280px;
-  width: 270px;
+  width: 320px;
   padding-top: 247px;
 }
 
@@ -65,7 +65,7 @@
   align-items: center;
   height: 50px;
   width: 50px;
-  background-color: #2867b2;
+  background-color: #bababa;
   border-radius: 100%;
   cursor: pointer;
 }
@@ -76,9 +76,9 @@
   align-items: center;
   height: 50px;
   width: 50px;
-  background-color: #d9d9d9;
-  border-radius: 100%;
-  cursor: pointer;
+  background-color: #bababa;
+  border-radius: 200px 200px;
+  text-decoration: none;
 }
 
 .fa-envelope {
@@ -89,9 +89,23 @@
 .fa-linkedin-in {
   color: white;
   font-size: 28px;
+  padding-top: 4px;
 }
 
 .fa-github {
-  color: white;
+  color: #bababa;
   font-size: 50px;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+  height: 42px;
+  width: 100px;
+  background-color: #bababa;
+  color: black;
+  border-radius: 200px 200px;
+  text-decoration: none;
 }

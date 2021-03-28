@@ -1,0 +1,62 @@
+.xp-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 15px 15px;
+  box-shadow: 6px 4px;
+  height: 270px;
+  width: 850px;
+  font-family: "Aladin";
+}
+
+.xp-info {
+  display: flex;
+  flex-direction: column;
+}
+
+company-container {
+  display: flex;
+  justify-content: space-between;
+  width: 2000px;
+}
+
+.info-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-text {
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.role-text {
+  font-size: 24px;
+  padding-bottom: 12px;
+}
+
+.about-comp-text {
+  font-size: 20px;
+}
+
+.role {
+  font-size: 20px;
+}
+
+.example-viewport {
+  height: 300px;
+  width: 950px;
+}
+
+.example-item {
+  height: 50px;
+}

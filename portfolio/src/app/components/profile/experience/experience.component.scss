@@ -1,25 +1,28 @@
+.container {
+  padding-top: 610px;
+}
+
 .xp-container {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
-  border: 2px solid black;
   border-radius: 15px 15px;
-  box-shadow: 6px 4px;
+  box-shadow: 1px 1px 7px 7px rgba(94, 94, 94, 0.15);
   height: 270px;
-  width: 850px;
+  width: 920px;
   font-family: "Aladin";
+}
+
+.divider {
+  margin-top: 10px;
+  padding-top: 25px;
+  border-top-color: #3b3b3b;
 }
 
 .xp-info {
   display: flex;
   flex-direction: column;
-}
-
-company-container {
-  display: flex;
-  justify-content: space-between;
-  width: 2000px;
 }
 
 .info-left {
@@ -54,9 +57,5 @@ company-container {
 
 .example-viewport {
   height: 300px;
-  width: 950px;
-}
-
-.example-item {
-  height: 50px;
+  width: 1000px;
 }

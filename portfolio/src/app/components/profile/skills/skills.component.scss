@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  height: 330px;
+  width: 1120px;
+  font-family: "Aladin";
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // width: 200px;
+  height: 340px;
+}
+
+.skill-text {
+  font-size: 20px;
+}
+
+.skill-bar {
+  width: 300px;
+  margin-top: 8px;
+  // margin-bottom: 13px;
+  background-color: #d9d9d9;
+}
+
+.skills {
+  text-align: right;
+  // padding-top: 6px;
+  // padding-bottom: 10px;
+  color: #c4c4c4;
+}
+
+.divider {
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 300px;
+  border-top-color: #3b3b3b;
+}
+
+.java {
+  width: 58%;
+  background-color: #3b3b3b;
+}
+
+.kotlin {
+  width: 33%;
+  background-color: #3b3b3b;
+}
+
+.html {
+  width: 81%;
+  background-color: #3b3b3b;
+}
+
+.css {
+  width: 67%;
+  background-color: #3b3b3b;
+}
+
+.javascript {
+  width: 65%;
+  background-color: #3b3b3b;
+}
+
+.react {
+  width: 68%;
+  background-color: #3b3b3b;
+}
+
+.angular {
+  width: 53%;
+  background-color: #3b3b3b;
+}
+
+.arquitetura {
+  width: 72%;
+  background-color: #3b3b3b;
+}
+
+.node {
+  width: 42%;
+  background-color: #3b3b3b;
+}
+
+.logica {
+  width: 87%;
+  background-color: #3b3b3b;
+}
+
+.estrutura {
+  width: 70%;
+  background-color: #3b3b3b;
+}
+
+.engenharia {
+  width: 73%;
+  background-color: #3b3b3b;
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 2px 2px 8px 8px rgba(94, 94, 94, 0.15);
+  height: 300px;
+  width: 420px;
+  font-family: "Aladin";
+  font-size: 25px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  width: 420px;
+  text-decoration: none;
+}

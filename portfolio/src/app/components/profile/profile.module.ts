@@ -12,6 +12,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { CertificatesComponent } from './certificates/certificates.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { CertificatesComponent } from './certificates/certificates.component';
     SkillsComponent,
     EducationComponent,
     CertificatesComponent,
+    ContactComponent,
   ],
   exports: [HeaderComponent, BodyComponent],
   imports: [CommonModule, MatTabsModule, MatButtonModule, MatDividerModule],

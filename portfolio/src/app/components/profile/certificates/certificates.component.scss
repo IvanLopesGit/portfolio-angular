@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Aladin";
+  width: 1000px;
+}
+
+.cert-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.img,
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10 {
+  height: 140px;
+  width: 220px;
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+
+.img1,
+.img5 {
+  padding-bottom: 4px;
+}
+
+.img9 {
+  padding-top: 20px;
+}
+
+.img3,
+.img6 {
+  padding-top: 25px;
+}
+
+.img4,
+.img7,
+.img8,
+.img10 {
+  padding-top: 40px;
+}
+
+.name {
+  font-size: 18px;
+  text-align: center;
+}
+
+.view {
+  font-size: 22px;
+  text-decoration: none;
+  color: #0a0a0a;
+}

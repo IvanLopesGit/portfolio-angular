@@ -1,3 +1,8 @@
+* {
+  text-decoration: none;
+  color: #222222;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -17,5 +22,8 @@
   align-items: center;
   height: 200px;
   width: 420px;
-  text-decoration: none;
+}
+
+.fa-whatsapp {
+  color: rgb(0, 211, 0);
 }

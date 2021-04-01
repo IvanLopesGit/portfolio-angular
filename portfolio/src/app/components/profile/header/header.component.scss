@@ -109,3 +109,82 @@
   border-radius: 200px 200px;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 1145px) {
+  .header-container {
+    width: 1128px;
+  }
+
+  .medias {
+    height: 280px;
+    width: 280px;
+  }
+
+  .fa-envelope {
+    font-size: 24px;
+  }
+
+  .fa-linkedin-in {
+    font-size: 24px;
+  }
+
+  .fa-github {
+    font-size: 45px;
+  }
+
+  .email-button {
+    height: 45px;
+    width: 45px;
+  }
+
+  .linkedin-button {
+    height: 45px;
+    width: 45px;
+  }
+
+  .cv {
+    height: 37px;
+    width: 80px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .header-container {
+    width: 1082px;
+  }
+
+  .medias {
+    height: 280px;
+    width: 280px;
+    margin-left: -20px;
+  }
+
+  .fa-envelope {
+    font-size: 24px;
+  }
+
+  .fa-linkedin-in {
+    font-size: 24px;
+  }
+
+  .fa-github {
+    font-size: 45px;
+  }
+
+  .email-button {
+    height: 45px;
+    width: 45px;
+  }
+
+  .linkedin-button {
+    height: 45px;
+    width: 45px;
+  }
+
+  .cv {
+    height: 37px;
+    width: 80px;
+    font-size: 12px;
+  }
+}

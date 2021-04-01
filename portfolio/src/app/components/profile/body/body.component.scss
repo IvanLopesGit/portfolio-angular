@@ -29,3 +29,14 @@
   background-color: #3b3b3b;
   border-radius: 50px;
 }
+
+@media only screen and (max-width: 1145px) {
+  mat-tab-group {
+    width: 100%;
+  }
+
+  .modal {
+    margin-top: 40px;
+    margin-left: 167px;
+  }
+}
